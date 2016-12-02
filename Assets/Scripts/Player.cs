@@ -34,4 +34,11 @@ public class Player : MonoBehaviour {
 		rgbody.velocity = velocity;
 
 	}
+
+	void OnTriggerEnter2D(Collider2D other) {
+		if (other.gameObject.tag == "Player") {
+			Destroy (other.gameObject);
+			Destroy (this.gameObject);
+		}
+	}
 }
