@@ -21,15 +21,19 @@ public class Soul : MonoBehaviour {
 
 		if (Input.GetKey (KeyCode.D) || Input.GetKey (KeyCode.RightArrow)) {
 			velocity += Vector3.left * speed;
+			transform.right = Vector3.left;
 		}
 		else if (Input.GetKey (KeyCode.S) || Input.GetKey (KeyCode.DownArrow)) {
 			velocity += Vector3.up * speed;
+			transform.right = Vector3.up;
 		}
 		else if (Input.GetKey (KeyCode.A) || Input.GetKey (KeyCode.LeftArrow)) {
 			velocity += Vector3.right * speed;
+			transform.right = Vector3.right;
 		}
 		else if (Input.GetKey (KeyCode.W) || Input.GetKey (KeyCode.UpArrow)) {
 			velocity += Vector3.down * speed;
+			transform.right = Vector3.down;
 		}
 		rgbody.velocity = velocity;
 
