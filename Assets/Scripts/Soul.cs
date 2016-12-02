@@ -4,6 +4,7 @@ using System.Collections;
 public class Soul : MonoBehaviour {
 
 	public float speed;
+	public int key;
 	Rigidbody2D rgbody;
 	[SerializeField]
 	private Player playerScript;
@@ -12,6 +13,7 @@ public class Soul : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		rgbody = GetComponent<Rigidbody2D> ();
+		key = 0;
 	}
 
 	// Update is called once per frame
