@@ -5,6 +5,7 @@ public class Soul : MonoBehaviour {
 
 	public float speed;
 	public int key;
+	public int fusionKey;
 	Rigidbody2D rgbody;
 	[SerializeField]
 	private Player playerScript;
@@ -14,6 +15,7 @@ public class Soul : MonoBehaviour {
 	void Start () {
 		rgbody = GetComponent<Rigidbody2D> ();
 		key = 0;
+		fusionKey = 0;
 	}
 
 	// Update is called once per frame

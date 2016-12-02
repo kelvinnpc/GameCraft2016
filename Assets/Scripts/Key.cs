@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class Key : MonoBehaviour {
-	public enum Type {PLAYER, SOUL};
+	public enum Type {PLAYER, SOUL, FUSION};
 	public Type type1;
 	// Use this for initialization
 	void Start () {
@@ -21,6 +21,14 @@ public class Key : MonoBehaviour {
 		} else if (type1.Equals (Type.SOUL) && other.gameObject.tag == "Soul") {
 			other.GetComponent<Soul> ().key++;
 			Destroy (this.gameObject);
+		} else if (type1.Equals (Type.FUSION)) {
+			if (other.gameObject.tag == "Player") {
+				other.GetComponent<Player> ().fusionKey++;
+				Destroy (this.gameObject);
+			} else if (other.gameObject.tag == "Soul") {
+				other.GetComponent<Soul> ().fusionKey++;
+				Destroy (this.gameObject);
+			}
 		}
 	}
 }
