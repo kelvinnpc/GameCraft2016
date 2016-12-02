@@ -5,6 +5,7 @@ public class Player : MonoBehaviour {
 
 	public float speed;
 	public int key;
+	public int fusionKey;
 	Rigidbody2D rgbody;
 	[SerializeField]
 	private Soul soulScript;
@@ -14,6 +15,7 @@ public class Player : MonoBehaviour {
 	void Start () {
 		rgbody = GetComponent<Rigidbody2D> ();
 		key = 0;
+		fusionKey = 0;
 	}
 
 	// Update is called once per frame
@@ -52,7 +54,7 @@ public class Player : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D other) {
-		if (other.gameObject.tag == "Player") {
+		if (other.gameObject.tag == "Soul") {
 			Destroy (other.gameObject);
 			Destroy (this.gameObject);
 		}
