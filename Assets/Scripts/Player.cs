@@ -6,6 +6,7 @@ public class Player : MonoBehaviour {
 	public float speed;
 	public int key;
 	public int fusionKey;
+	public Animator playerAnimator;
 	Rigidbody2D rgbody;
 	[SerializeField]
 	private Soul soulScript;
@@ -16,6 +17,7 @@ public class Player : MonoBehaviour {
 		rgbody = GetComponent<Rigidbody2D> ();
 		key = 0;
 		fusionKey = 0;
+		playerAnimator = GetComponent<Animator> ();
 	}
 
 	// Update is called once per frame
@@ -26,6 +28,7 @@ public class Player : MonoBehaviour {
 	void FixedUpdate () {
 		
 		Vector3 velocity = Vector3.zero;
+		playerAnimator.SetBool ("Is Move", false);
 		bool isHitWall = Physics2D.Linecast (transform.position, checkWall.transform.position, 1 << LayerMask.NameToLayer("Wall"));
 		Debug.DrawLine (transform.position, checkWall.transform.position, Color.red);
 		if (isHitWall) {
@@ -36,18 +39,22 @@ public class Player : MonoBehaviour {
 		if (Input.GetKey (KeyCode.A) || Input.GetKey (KeyCode.LeftArrow)) {
 			velocity += Vector3.left * speed;
 			transform.right = Vector3.left;
+			playerAnimator.SetBool ("Is Move", true);
 		}
 		else if (Input.GetKey (KeyCode.W) || Input.GetKey (KeyCode.UpArrow)) {
 			velocity += Vector3.up * speed;
 			transform.right = Vector3.up;
+			playerAnimator.SetBool ("Is Move", true);
 		}
 		else if (Input.GetKey (KeyCode.D) || Input.GetKey (KeyCode.RightArrow)) {
 			velocity += Vector3.right * speed;
 			transform.right = Vector3.right;
+			playerAnimator.SetBool ("Is Move", true);
 		}
 		else if (Input.GetKey (KeyCode.S) || Input.GetKey (KeyCode.DownArrow)) {
 			velocity += Vector3.down * speed;
 			transform.right = Vector2.down;
+			playerAnimator.SetBool ("Is Move", true);
 		}
 		rgbody.velocity = velocity;
 
