@@ -1,0 +1,285 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 5300 (ID=0x161e)
+    Vendor:   Intel
+    VRAM:     1127 MB
+    Driver:   20.19.15.4300
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Yogamurti\Documents\Gamecraft\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Yogamurti\Documents\Gamecraft\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Yogamurti\Documents\Gamecraft\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Yogamurti\Documents\Gamecraft\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Yogamurti\Documents\Gamecraft\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Yogamurti\Documents\Gamecraft\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Yogamurti\Documents\Gamecraft\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Yogamurti\Documents\Gamecraft\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Yogamurti\Documents\Gamecraft\test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Yogamurti\Documents\Gamecraft\test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.225 seconds
+Platform assembly: C:\Users\Yogamurti\Documents\Gamecraft\test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Yogamurti\Documents\Gamecraft\test_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+The referenced script on this Behaviour (Game Object 'Player') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SoulUI') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'PlayerUI') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'Soul') is missing!
+ 
+(Filename:  Line: 1754)
+
+UnloadTime: 12.075236 ms
+The referenced script on this Behaviour (Game Object 'SoulUI') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'Player') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'PlayerUI') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'Soul') is missing!
+ 
+(Filename:  Line: 1754)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 18.005598 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 345.
+Total: 1.290146 ms (FindLiveObjects: 0.055423 ms CreateObjectMapping: 0.049265 ms MarkObjects: 1.170061 ms  DeleteObjects: 0.014369 ms)
+
+The referenced script on this Behaviour (Game Object 'PinkKey') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'Soul') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'Player') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'PlayerUI') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'PinkDoor') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'PinkDoor') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'PinkDoor') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SoulUI') is missing!
+ 
+(Filename:  Line: 1754)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.314779 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 348.
+Total: 0.504973 ms (FindLiveObjects: 0.060555 ms CreateObjectMapping: 0.049265 ms MarkObjects: 0.382835 ms  DeleteObjects: 0.011290 ms)
+
+Person Key: 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+The referenced script on this Behaviour (Game Object 'BlueKey') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'PlayerUI') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'PinkKey') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'Soul') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SoulUI') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'Player') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'BlueKey (1)') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'Door') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'BlueDoor') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'BlueDoor') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'BlueDoor') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'PinkDoor') is missing!
+ 
+(Filename:  Line: 1754)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.213168 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 405.
+Total: 0.520369 ms (FindLiveObjects: 0.062608 ms CreateObjectMapping: 0.050292 ms MarkObjects: 0.396178 ms  DeleteObjects: 0.011290 ms)
+
+Person Key: 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+The referenced script on this Behaviour (Game Object 'BlueDoor (3)') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'PinkDoor (1)') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'PinkDoor (3)') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'BlueKey (2)') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'BlueDoor') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'BlueDoor (1)') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'FusionDoor') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'FusionKey (1)') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'PinkKey') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'BlueDoor (5)') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'BlueKey (4)') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'BlueKey (1)') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'BlueDoor (4)') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SoulUI') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'BlueKey') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'FusionDoor (1)') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'FusionKey') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'PinkKey (1)') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'PlayerUI') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'BlueKey (5)') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'PinkDoor') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'Player') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'BlueDoor (2)') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'PinkKey (2)') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'BlueKey (3)') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'Soul') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'PinkKey (3)') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'PinkDoor (2)') is missing!
+ 
+(Filename:  Line: 1754)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.038685 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 557.
+Total: 0.597347 ms (FindLiveObjects: 0.082109 ms CreateObjectMapping: 0.052344 ms MarkObjects: 0.449549 ms  DeleteObjects: 0.011290 ms)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 2294 -> priority: 1 
