@@ -3,6 +3,8 @@ using System.Collections;
 
 public class Player : MonoBehaviour {
 
+	public Text PersonKey;
+	public Text PersonSpecialKey;
 	public float speed;
 	public bool isHitWall = false;
 	public int key;
@@ -19,6 +21,8 @@ public class Player : MonoBehaviour {
 		key = 0;
 		fusionKey = 0;
 		playerAnimator = GetComponent<Animator> ();
+		PersonKey.text = "Key: " + key.ToString ();
+		PersonSpecialKey.text = "Key: " + fusionKey.ToString ();
 	}
 
 	// Update is called once per frame
@@ -66,8 +70,13 @@ public class Player : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other) {
 		if (other.gameObject.tag == "Soul") {
-			Destroy (other.gameObject);
-			Destroy (this.gameObject);
+			string level = Application.loadedLevelName;
+			char lastChar = level [level.Length - 1];
+			int newNum = lastChar - '0' + 1;
+			level = "Level" + newNum.ToString ();
+			Application.LoadLevel (level);
+//			Destroy (other.gameObject);
+//			Destroy (this.gameObject);
 		}
 	}
 }

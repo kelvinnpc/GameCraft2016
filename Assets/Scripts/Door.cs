@@ -3,6 +3,8 @@ using System.Collections;
 
 public class Door : MonoBehaviour {
 	public enum Type {PLAYER, SOUL, FUSION};
+	public Text PersonKey;
+	public Text SoulKey;
 	public Type type;
 	// Use this for initialization
 	void Start () {
@@ -20,12 +22,14 @@ public class Door : MonoBehaviour {
 			if (player.key > 0) {
 				Destroy (this.gameObject);
 				player.key--;
+				PersonKey.text = "Key: " + player.key.ToString ();
 			}
 		} else if (type.Equals (Type.SOUL) && other.gameObject.tag == "Soul") {
 			Soul soul = other.GetComponent<Soul> ();
 			if (soul.key > 0) {
 				Destroy (this.gameObject);
 				soul.key--;
+				SoulKey.text = "Key: " + soul.key.ToString ();
 			}
 		} else if (type.Equals (Type.FUSION)) {
 			if (other.gameObject.tag == "Player") {

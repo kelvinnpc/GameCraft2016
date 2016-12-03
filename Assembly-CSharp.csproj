@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\Soul.cs" />
      <Compile Include="Assets\Scripts\TwinPortal.cs" />
+     <Compile Include="Assets\Scripts\reset.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

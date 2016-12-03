@@ -3,6 +3,8 @@ using System.Collections;
 
 public class Soul : MonoBehaviour {
 
+	public Text SoulKey;
+	public Text SoulSpecialKey;
 	public float speed;
 	public bool isHitWall = false;
 	public int key;
@@ -19,6 +21,8 @@ public class Soul : MonoBehaviour {
 		key = 0;
 		fusionKey = 0;
 		soulAnimator = GetComponent<Animator> ();
+		SoulKey.text = "Key: " + key.ToString ();
+		SoulSpecialKey.text = "Key: " + fusionKey.ToString ();
 	}
 
 	// Update is called once per frame
