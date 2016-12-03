@@ -57,8 +57,10 @@ public class Player : MonoBehaviour {
 			transform.right = Vector2.down;
 			playerAnimator.SetBool ("Is Move", true);
 		}
-		if(!soulScript.isHitWall)
+		if (!soulScript.isHitWall)
 			rgbody.velocity = velocity;
+		else
+			rgbody.velocity = Vector3.zero;
 
 	}
 
