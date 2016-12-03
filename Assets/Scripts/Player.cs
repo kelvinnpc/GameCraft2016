@@ -4,6 +4,7 @@ using System.Collections;
 public class Player : MonoBehaviour {
 
 	public float speed;
+	public bool isHitWall = false;
 	public int key;
 	public int fusionKey;
 	public Animator playerAnimator;
@@ -29,7 +30,7 @@ public class Player : MonoBehaviour {
 		
 		Vector3 velocity = Vector3.zero;
 		playerAnimator.SetBool ("Is Move", false);
-		bool isHitWall = Physics2D.Linecast (transform.position, checkWall.transform.position, 1 << LayerMask.NameToLayer("Wall"));
+		isHitWall = Physics2D.Linecast (transform.position, checkWall.transform.position, 1 << LayerMask.NameToLayer("Wall"));
 		Debug.DrawLine (transform.position, checkWall.transform.position, Color.red);
 		if (isHitWall) {
 			soulScript.speed = 0;
@@ -56,7 +57,10 @@ public class Player : MonoBehaviour {
 			transform.right = Vector2.down;
 			playerAnimator.SetBool ("Is Move", true);
 		}
-		rgbody.velocity = velocity;
+		if (!soulScript.isHitWall)
+			rgbody.velocity = velocity;
+		else
+			rgbody.velocity = Vector3.zero;
 
 	}
 
